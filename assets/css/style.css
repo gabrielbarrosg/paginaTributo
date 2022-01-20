@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Ultra&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.logo {
+    width: 250px;
+    margin-bottom: 40px;;
+}
+.main {
+    background-image: url('../images/cmiygl.jpg');
+    height: 650px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-titulo {
+    font-size: 45px;
+    font-family: 'Ultra', serif;
+    font-weight: 500;
+    color: rgb(116, 56, 1);
+}
+.main-botao {
+    width: 150px;
+    height: 35px;
+    color: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(172, 101, 101);
+    font-family: 'Playfair Display', serif;
+}
+.sobre-tyler {
+    background-color: rgb(228, 210, 166);
+    display: flex;
+    flex-direction: column;
+}
+.sobre-tyler-p1, .sobre-tyler-p2 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sobre-tyler-p1 {
+    gap: 50px;
+}
+.sobre-tyler-p2 {
+    margin-bottom: 50px;
+    gap: 90px;
+}
+p {
+    width: 400px;
+    text-align: justify;
+    font-family: 'Playfair Display', serif;
+}
+.tyler1,.tyler2 {
+    width: 400px;
+    border-radius: 15px;
+}
+.odd-future {
+    background-color: rgb(228, 201, 166);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.odd-future-info {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+.odd-future1, .odd-future2 {
+    width: 400px;
+    height: 250px;
+    border-radius: 15px;
+}
+.odd-future-imgs {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.albums {
+    background-color: rgba(187, 122, 48, 0.322);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.flowerboy, .igor {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+.flowerboy-img, .igor-img {
+    width: 400px;
+    border-radius: 15px;
+}
